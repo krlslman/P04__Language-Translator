@@ -20,9 +20,13 @@ body {
     border-radius: 7px;
     padding: 30px;
 }
+.container:hover {
+    box-shadow: 0px 0px 15px rgba(25, 29, 88, 0.784);
+}
 .wrapper {
     border-radius: 5px;
     border: 1px solid #bbb;
+    
 }
 .wrapper .text-input {
     display: flex;
@@ -72,7 +76,7 @@ body {
     width: 50px;
     color: #9f9f9f;
     font-size: 14px;
-    cursor: crosshair;
+    cursor: pointer;
     justify-content: center;
 }
 
@@ -86,7 +90,7 @@ body {
 .controls .exchange {
     color: #9f9f9f;
     font-size: 16px;
-    cursor: crosshair;
+    cursor: pointer;
 }
 
 .container button {
@@ -95,15 +99,20 @@ body {
     margin-top: 20px;
     border: none;
     outline: none;
-    cursor: grab;
+    cursor: pointer;
     color: #fff;
     font-size: 17px;
     border-radius: 5px;
     background: #5372f0;
+    /* border: 2px solid red; */
+    
 
 }
+.container button:hover {
+    background: #526cd5;
+    cursor: pointer;
 
-
+}
 
 
 
